@@ -1,0 +1,23 @@
+.header {
+  height: 80vh;
+  width: 100%;
+  background: $color-light;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+  }
+
+  p {
+    width: 60%;
+  }
+
+  button {
+    margin-top: 2rem;
+  }
+}

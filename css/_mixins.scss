@@ -1,0 +1,19 @@
+@mixin heading1 {
+  font-size: 2rem;
+  color: $color-dark;
+  font-weight: 900;
+}
+
+@mixin heading2 {
+  font-size: .8rem;
+  text-transform: uppercase;
+  color: $color-dark;
+  font-weight: 700;
+}
+
+@mixin paragraph {
+  color: $color-dark;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-weight: 400;
+}
