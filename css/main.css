@@ -1,23 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap");
 *,
-*::before,
-*::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 75%;
 }
 
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
 }
 
 .container {
