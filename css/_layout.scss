@@ -3,14 +3,14 @@
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 4rem;
 }
 
 .products {
 
   &-items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
     padding: 0 1rem;
@@ -62,6 +62,12 @@ section {
       height: 100%;
       width: 100%;
       padding: 0 3rem;
+
+      h2,
+      p,
+      button {
+        margin-top: 1.25rem;
+      }
     }
   }
 
@@ -185,16 +191,18 @@ section {
 
 .our-story {
   height: 50vh;
+  width: 100%;
 }
 
 .stories {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 1rem;
+  grid-gap: 1rem;
 
   &-item {
     img {
       height: 100%;
+      width: 100%;
     }
 
     h2,

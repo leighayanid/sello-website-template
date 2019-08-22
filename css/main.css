@@ -24,14 +24,14 @@ body {
 }
 
 section {
-  padding: 4rem 2rem;
+  padding: 4rem;
 }
 
 .products-items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 4rem;
   padding: 0 1rem;
@@ -93,6 +93,12 @@ section {
   height: 100%;
   width: 100%;
   padding: 0 3rem;
+}
+
+.banner-1__info h2,
+.banner-1__info p,
+.banner-1__info button {
+  margin-top: 1.25rem;
 }
 
 .banner-2 {
@@ -237,6 +243,7 @@ section {
 
 .our-story {
   height: 50vh;
+  width: 100%;
 }
 
 .stories {
@@ -244,11 +251,12 @@ section {
   display: grid;
   -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-column-gap: 1rem;
+  grid-gap: 1rem;
 }
 
 .stories-item img {
   height: 100%;
+  width: 100%;
 }
 
 .stories-item h2,
