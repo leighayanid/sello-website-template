@@ -226,6 +226,28 @@ section {
   font-size: 1rem;
 }
 
+.our-story {
+  height: 50vh;
+}
+
+.stories {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.stories-item img {
+  height: 100%;
+}
+
+.stories-item h2,
+.stories-item p,
+.stories-item button {
+  margin-top: 1.5rem;
+}
+
 .main-text {
   font-size: 2rem;
   color: #222222;

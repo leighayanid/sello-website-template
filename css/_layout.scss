@@ -146,6 +146,7 @@ section {
       left: 0;
       height: 100%;
     }
+
     &:nth-child(2) {
       position: absolute;
       top: 0;
@@ -172,6 +173,28 @@ section {
       background: $color-dark;
       padding: .75rem 1rem;
       font-size: 1rem;
+    }
+  }
+}
+
+.our-story {
+  height: 50vh;
+}
+
+.stories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1rem;
+
+  &-item {
+    img {
+      height: 100%;
+    }
+
+    h2,
+    p,
+    button {
+      margin-top: 1.5rem;
     }
   }
 }
