@@ -27,8 +27,8 @@ section {
 .products-items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -ms-grid-columns: (minmax(210px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
   grid-column-gap: 3rem;
   grid-row-gap: 4rem;
   padding: 0 1rem;
@@ -57,8 +57,8 @@ section {
 .banner {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  -ms-grid-columns: (minmax(350px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .banner-1 {
