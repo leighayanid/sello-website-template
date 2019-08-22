@@ -296,6 +296,67 @@ section {
   color: white;
 }
 
+.product-links {
+  width: 100%;
+  height: 40vh;
+}
+
+.product-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.product-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-list__item h2 {
+  margin-bottom: 1rem;
+}
+
+.product-list__item a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.footer-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.footer-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-list__item img {
+  width: 50%;
+}
+
+.footer-list__item h2 {
+  margin-bottom: 1rem;
+}
+
+.footer-list__item a {
+  text-decoration: none;
+  color: #222222;
+}
+
 .main-text {
   font-size: 3rem;
   color: #222222;
