@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  padding: 4rem;
+  padding: 4rem 0;
 }
 
 .products-items {
@@ -241,7 +241,6 @@ section {
 }
 
 .our-story {
-  height: 50vh;
   width: 100%;
 }
 
@@ -264,8 +263,41 @@ section {
   margin-top: 1.25rem;
 }
 
+.instagram {
+  width: 100%;
+}
+
+.instagram-feed {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  position: relative;
+}
+
+.instagram-feed img {
+  width: 100%;
+}
+
+.instagram-feed p {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #222222;
+  opacity: .75;
+  padding: 1rem 2rem;
+  color: white;
+}
+
 .main-text {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #222222;
   font-weight: 900;
 }

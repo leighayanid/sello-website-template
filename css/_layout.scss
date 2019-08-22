@@ -3,7 +3,7 @@
 }
 
 section {
-  padding: 4rem;
+  padding: 4rem 0;
 }
 
 .products {
@@ -190,7 +190,6 @@ section {
 }
 
 .our-story {
-  height: 50vh;
   width: 100%;
 }
 
@@ -209,6 +208,31 @@ section {
     p,
     button {
       margin-top: 1.25rem;
+    }
+  }
+}
+
+.instagram {
+  width: 100%;
+
+  &-feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $color-dark;
+      opacity: .75;
+      padding: 1rem 2rem;
+      color: white;
     }
   }
 }
