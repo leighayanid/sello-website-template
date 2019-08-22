@@ -1,15 +1,16 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
 body {
-  box-sizing: inherit;
+  box-sizing: border-box;
   font-family: $font-1;
   font-weight: 400;
-  font-size: 70%;
-
 }
