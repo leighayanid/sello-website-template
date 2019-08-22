@@ -125,6 +125,12 @@ section {
   padding: 0 3rem;
 }
 
+.banner-2__info h2,
+.banner-2__info p,
+.banner-2__info button {
+  margin-top: 1.25rem;
+}
+
 .features-items {
   display: -ms-grid;
   display: grid;
@@ -245,7 +251,7 @@ section {
 .stories-item h2,
 .stories-item p,
 .stories-item button {
-  margin-top: 1.5rem;
+  margin-top: 1.25rem;
 }
 
 .main-text {
