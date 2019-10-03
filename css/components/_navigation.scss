@@ -7,9 +7,27 @@
   left: 0;
   
   img {
-    height: 100%;
+    width: auto;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 5%;
+  }
+
+  &-menu {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    margin-top: 1.5rem;
+
+    a {
+      text-decoration: none;
+      padding: 0 1rem;
+      color: grey;
+
+      &:active {
+        color: black;
+        border-bottom: 2px solid black;
+      }
+    }
   }
 }

@@ -1,28 +1,9 @@
-.btn {
+button {
+  &:hover {
+    cursor: pointer;
+  }
+
+  background: transparent;
   border: none;
-  padding: .5rem 1.1rem;
-  font-size: .7rem;
-
-  &-primary {
-    $background: white;
-    color: black
-  }
-
-  &-secondary {
-    color: white;
-  }
-
-  &-rounded {
-    border-radius: 15px;
-  }
-
-  &-box {
-    border-radius: 5px;
-  }
-
-  &-border {
-    border: none;
-    background: none;
-    padding: 0 .2rem;
-  }
+  border-bottom: 5px solid rgba(red, .1);
 }
